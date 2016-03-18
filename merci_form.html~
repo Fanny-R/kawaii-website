@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="merci.css">
+    <title> Kawaii - SloganDuSiteSuperCool</title>
+  </head>
+  <body>
+<h1>Merci pour votre message !</h1>
+<p>Notre équipe vous répondra dans les plus bref délais</p>
+<a href="siteweb.html"><p>Retour à Kawaii</p></a>
+  </body>
+</html>

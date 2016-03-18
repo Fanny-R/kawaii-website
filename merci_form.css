@@ -1,0 +1,22 @@
+h1, a,p{
+color:white;
+text-align:center;
+font-family: Comic Sans, Verdana, Geneva, Arial;
+font-size:150%;
+text-shadow: 2px 2px black;
+}
+
+h1{
+font-size:350%;
+}
+
+a{
+font-weight: bold;
+font-size:90%;
+}
+
+body{
+background-image:url('image/dog_letters.gif');
+background-size: cover;
+margin-top:300px;
+}
