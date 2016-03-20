@@ -72,15 +72,18 @@ margin-left: 5%;
 color:#FF6F7D;
 }
 
-a{
+body a{
 	text-decoration : none;
+	color : #BA3744;
+}
+body a:hover{
+color : #9F202D;
 }
 
 .button{
 	background-color: #FFBEAC;
 	padding:0.5%;
 	border: #DDEEFF 1px solid;
-	width: 20%;
 	font-size: 85%;
 	color: white;
 }
@@ -227,4 +230,30 @@ color : #FF6F7D;
 	font-size: 100%;
 }
 
+/* Style spécifique à Catalogue */
+
+.article h2 {
+color:#FF6F7D;
+text-decoration:none;
+}
+.article img{
+margin-left: 1%;
+float:left;
+width: 150px;
+height:auto;
+
+}
+
+.article {
+margin-bottom : 2%;
+}
+
+.tarif{
+	float:right;
+	margin-left: 3%;
+	color:#FF6F7D;	
+}
+.button{
+	float:right;
+}
 
