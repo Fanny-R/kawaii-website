@@ -2,30 +2,41 @@
 <html>
   <head>
     <meta charset="utf-8"/>
-    <link rel="stylesheet" type="text/css" href="moncss">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title> Kawaii - SloganDuSiteSuperCool</title>
   </head>
   <body>
-  <a href="index.html"><h1>Kawaii</h1></a>
+<header>
+  <a href="index.html"><h1>Kawaii</h1></a> 
   <ol>
-  <li><a href="catalogue.html">Nos articles</a></li>
-  <li><a href="propos.html" >A propos</a></li>
-  <li><a href="technique.html">Détails techniques</a></li>
-  <li><label>Recherche : <input></label><button>Go !</button></li>
-  <li><a href="panier.html">Panier</a></li>
+  <a href="catalogue.html"><li>Nos articles</li></a>
+  <a href="propos.html" ><li>A propos</li></a>
+  <li><a href="technique.html">Détails techniques</li></a>
+  <li><a href="panier.html">Panier</li></a>
+  <li><label><a href="catalogue.html" >Rechercher </a><input></label></li>
   </ol>
-<h2>Chiot trop mignon !</h2>
-  	<IMG SRC="image/chiotplage.jpg" WIDTH=280 HEIGHT=200 alt="Chiot plage" />
-  <p>Phasellus vel ipsum in diam fringilla luctus. Etiam et nisl velit. 
-  Donec efficitur, magna id pellentesque aliquet, orci purus placerat magna, vel cursus diam nulla ut est. 
-  Nam volutpat venenatis enim sed dignissim. Class aptent taciti sociosqu ad litora 
-  torquent per conubia nostra, per inceptos himenaeos. Sed viverra nibh mi, 
-  feugiat lobortis lorem pellentesque eu. Cras venenatis ex mi, a lacinia est tempus non. 
-  Quisque a interdum justo. </p>
-      <p>Sexe:
+</header>
+
+
+
+<h2 id="titreArticle"> Jeune Bouvier Australien </h2>
+  	
+
+      <p>
+        <IMG id="image_article" SRC="image/chiotplage.jpg" WIDTH=280 HEIGHT=200 alt="Chiot plage" />
+
+        Phasellus vel ipsum in diam fringilla luctus. Etiam et nisl velit. Donec efficitur, magna id pellentesque aliquet, orci purus placerat magna, vel cursus diam nulla ut est. Nam volutpat venenatis enim seddignissim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed viverra nibh mi, feugiat lobortis lorem pellentesque eu. Cras venenatis ex mi, a lacinia est tempus non. Quisque a interdum justo. <br/><br/>
+        Phasellus vel ipsum in diam fringilla luctus. Etiam et nisl velit. Donec efficitur, magna id pellentesque aliquet, orci purus placerat magna, vel cursus diam nulla ut est. Nam volutpat venenatis enim seddignissim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed viverra nibh mi, feugiat lobortis lorem pellentesque eu. Cras venenatis ex mi, a lacinia est tempus non. Quisque a interdum justo. </p>
+
+        <p id ="tarif">239€</p>
+<div id="selecteurChien">
+
+<form action="panier.html" method="post">
+Sexe:
     <label><input name="Sexe" type="radio" value="ch"> Male</label>
     <label><input name="Sexe" type="radio" value="ol"> Femelle</label>
 	</body>
+
 	<label>Race :<select>
 	<option>Golden Retriever</option>
 	<option>Border Collie</option>
@@ -35,5 +46,7 @@
 	</label>
 	<label>Quantité :<input type="number" name="quantity" min="1" max="9" step="1"></label>
 	
-	<a href="panier.html">Commander</a>
+  <button type="submit">Confirmer </button></form>
+
+</div>
 </html>
