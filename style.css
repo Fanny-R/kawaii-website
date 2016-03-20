@@ -105,29 +105,48 @@ display: inline-block;
 
 
  #achat {
-margin: 2%;
+ 	margin: 2%;
+ 	margin-right: 10%;
+ 	border-top: dotted;
+ 	border-color: #DC2C3E;
+ 	display: inline-block;
+
+}
+
+#achat p{
+	padding-left: 6%;
+	text-align: justify;
+
+
 }
 
 #achat img{
-	float: left;
-	margin-left: 5%;
+	margin-left:5%;
 	margin-right: 5%;
-	margin-bottom: 5%;
-	border: dotted;
+	margin-top: 2%;
+	float: left;
+
 }
 
 h2 a {
-color:#FF6F7D;
-text-decoration:underline;
+	color:#FF6F7D;
+	text-decoration:underline;
+	padding-left: 5%;
 }
 
 #annuler a{
-padding:5px;
-color:white;
-text-decoration:none;
-background-color:#DC2C3E;
-box-shadow: 3px 3px 1px 0px #c0c0c0;
-float:right;
+	padding:5px;
+	color:white;
+	text-decoration:none;
+	background-color:#DC2C3E;
+	box-shadow: 3px 3px 1px 0px #c0c0c0;
+	float:right;
+}
+
+#boutonPanier {
+	float: right;
+	margin: 9%;
+	margin-top: 2%;
 }
 
 
@@ -140,6 +159,7 @@ float:right;
 	text-decoration: none;
 	font-size:250%;
 }
+
 #promo h2{
    position: absolute; 
    top: 50%; 
@@ -167,6 +187,7 @@ width:500px;
 height:500px;
 background-size: cover;
 }
+
 #bestof{
 background-image: url('image/panda.jpg');
 position: relative;
