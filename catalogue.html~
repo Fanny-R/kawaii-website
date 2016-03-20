@@ -7,7 +7,7 @@
   </head>
   <body>
   <header>
-  <a href="siteweb.html"><h1>Kawaii</h1></a> 
+  <a href="index.html"><h1>Kawaii</h1></a> 
   <ol>
   <a href="catalogue.html"><li>Nos articles</li></a>
   <a href="propos.html" ><li>A propos</li></a>
@@ -23,7 +23,7 @@
   Donec efficitur, magna id pellentesque aliquet, orci purus placerat magna, vel cursus diam nulla ut est. 
   Nam volutpat venenatis enim sed dignissim.</p>
   <a href="article.html">En savoir plus</a>
-  <a href="panier.html">Commande express</a>
+<a href="panier.html" class="button" >Commande express</a>
   
   	<IMG SRC="image/ecureuil.jpg" WIDTH=180 HEIGHT=100 alt="ecureuil" />
 	<h2>L'écureuil</h2>
@@ -31,7 +31,7 @@
   Donec efficitur, magna id pellentesque aliquet, orci purus placerat magna, vel cursus diam nulla ut est. 
   Nam volutpat venenatis enim sed dignissim.</p>
   <a href="article.html">En savoir plus</a>
-  <a href="panier.html">Commande express</a>
+<a href="panier.html" class="button" >Commande express</a>
   
   	<IMG SRC="image/loutre.jpg" WIDTH=180 HEIGHT=100 alt="loutre" />
 	<h2>La Loutre</h2>
@@ -39,7 +39,7 @@
   Donec efficitur, magna id pellentesque aliquet, orci purus placerat magna, vel cursus diam nulla ut est. 
   Nam volutpat venenatis enim sed dignissim.</p>
   <a href="article.html">En savoir plus</a>
-  <a href="panier.html">Commande express</a>
+<a href="panier.html" class="button" >Commande express</a>
   
   <IMG SRC="image/hamster.jpg" WIDTH=180 HEIGHT=100 alt="hamster" />
 	<h2>Le Hamster</h2>
@@ -47,7 +47,7 @@
   Donec efficitur, magna id pellentesque aliquet, orci purus placerat magna, vel cursus diam nulla ut est. 
   Nam volutpat venenatis enim sed dignissim.</p>
   <a href="article.html">En savoir plus</a>
-  <a href="panier.html">Commande express</a>
+<a href="panier.html" class="button" >Commande express</a>
   
   
   

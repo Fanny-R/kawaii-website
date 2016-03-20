@@ -21,11 +21,11 @@ color:#EB4354;
 text-decoration:none;
 }
 
-header a{
+a{
 text-decoration:none;
 color : #BA3744;
 }
-header a:hover{
+a:hover{
 color : #9F202D;
 }
 
@@ -35,7 +35,7 @@ background-color :  #FFE4C4;
 box-shadow: 3px 3px 1px 0px #c0c0c0;
 margin-left : 5px;
 border-radius : 1px;
-padding: 0.3em;
+padding: 0.4em;
 font-size: 100%;
 display: inline-block;
 }
@@ -43,15 +43,19 @@ display: inline-block;
 header li:hover {
 background-color : #FFBEAC;
 }
+
+
 input {
 	margin-left: 1%;
 	width: 58%;
 	border: #CCC 1px solid;
+
 }
 input:hover, input:focus
 {
 	border: #999 1px solid;
 	background-color: #FDE9E0;
+
 }
 
 /**/
@@ -67,14 +71,14 @@ height:auto;
 
 }
 
-button{
+.button{
 	background-color: #FFBEAC;
 	padding:2px;
 	border: #DDEEFF 1px solid;
 	width: 15%;
 }
 
-button:hover{
+.button:hover{
 	background-color: #F5B4A2;
 	cursor: pointer;
 }
