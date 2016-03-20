@@ -25,6 +25,7 @@ header a{
 text-decoration:none;
 color : #BA3744;
 }
+
 header a:hover{
 color : #9F202D;
 }
@@ -68,13 +69,19 @@ display: inline-block;
 	text-decoration: none;
 	font-size:250%;
 }
+#promo h2{
+   position: absolute; 
+   top: 50%; 
+   left: 3%; 
+   letter-spacing: 5%;  
+}
 
 
 #offre{
 background-image: url('image/chiot.jpg');
-float:left;
+position: relative; 
 background-repeat: no-repeat;
-margin:50px;
+margin:10%;
 width:500px;
 height:500px;
 background-size: cover;
@@ -82,16 +89,16 @@ background-size: cover;
 }
 #soldes{
 background-image: url('image/canard.jpg');
-float:left;
-margin:50px;
+position: relative; 
+margin:10%;
 width:500px;
 height:500px;
 background-size: cover;
 }
 #bestof{
 background-image: url('image/panda.jpg');
-float:left;
-margin:50px;
+position: relative;
+margin:10%;
 width:500px;
 height:500px;
 background-size: cover;
