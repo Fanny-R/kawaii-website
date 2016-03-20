@@ -118,10 +118,41 @@ font-family: Comic Sans, Verdana, Geneva, Arial;
 body li{
 display: inline-block;
 }
+
+/*-----------------------------------------------------------*/
+/*Style spécifique à Article*/
+
+#article {
+ 	margin: 2%;
+ 	margin-right: 10%;
+ 	border-top: dotted;
+ 	border-color: #DC2C3E;
+ 	display: inline-block;
+}
+
+#article p{
+	padding-left: 6%;
+	text-align: justify;
+}
+
+#article img{
+	margin-left:5%;
+	margin-right: 5%;
+	margin-top: 2%;
+	float: left;
+}
+
+h2 a {
+	color:#FF6F7D;
+	text-decoration:underline;
+	padding-left: 5%;
+}
+
+
+
+
 /*-----------------------------------------------------------*/
 /*Style spécifique à Panier*/
-
-
 
  #achat {
  	margin: 2%;
@@ -129,15 +160,11 @@ display: inline-block;
  	border-top: dotted;
  	border-color: #DC2C3E;
  	display: inline-block;
-
 }
 
 #achat p{
 	padding-left: 6%;
 	text-align: justify;
-
-<<<<<<< HEAD
-
 }
 
 #achat img{
@@ -145,7 +172,6 @@ display: inline-block;
 	margin-right: 5%;
 	margin-top: 2%;
 	float: left;
-
 }
 
 h2 a {
@@ -193,70 +219,47 @@ h2 a {
 
 
 #offre{
-background-image: url('image/chiot.jpg');
-position: relative; 
-background-repeat: no-repeat;
-margin:10%;
-width:500px;
-height:500px;
-background-size: cover;
+	background-image: url('image/chiot.jpg');
+	position: relative; 
+	background-repeat: no-repeat;
+	margin:10%;
+	width:500px;
+	height:500px;
+	background-size: cover;
 
 }
 #soldes{
-background-image: url('image/canard.jpg');
-position: relative; 
-margin:10%;
-width:500px;
-height:500px;
-background-size: cover;
+	background-image: url('image/canard.jpg');
+	position: relative; 
+	margin:10%;
+	width:500px;
+	height:500px;
+	background-size: cover;
 }
 
 #bestof{
-background-image: url('image/panda.jpg');
-position: relative;
-margin:10%;
-width:500px;
-height:500px;
-background-size: cover;
+	background-image: url('image/panda.jpg');
+	position: relative;
+	margin:10%;
+	width:500px;
+	height:500px;
+	background-size: cover;
 }
+
+
 
 /*-----------------------------------------------------------*/
-/* Style spécifique à Article */
-
-
-#image_article{
-	float: left;
-	margin-left: 5%;
-	margin-right: 5%;
-	margin-bottom: 5%;
-}
-
-#tarif{
-	margin-left: 3%;
-	color:#FF6F7D;	
-}
-
-#selecteurChien{
-
-	margin-left: 3%;
-
-}
-
-#selecteurChien label {
-	margin-right: 1%;
-}
-
 /* Style spécifique à Propos */
 
 #contenu img{
-float:right;
-margin-left: 1%;
-margin-right : 1%;
+	float:right;
+	margin-left: 1%;
+	margin-right : 1%;
 }
 
 #contenu{
-text-align:justify;
-margin-left : 1%;
+	text-align:justify;
+	margin-left : 1%;
 }
 
 #contact label {
@@ -266,12 +269,11 @@ margin-left : 1%;
 	float: left;
 }
 
-
 #contact legend{
-font-size : 130%;
-margin-left : 1%;
-margin-bottom : 1%;
-color : #FF6F7D;
+	font-size : 130%;
+	margin-left : 1%;
+	margin-bottom : 1%;
+	color : #FF6F7D;
 }
 
 #formulaire label{	
@@ -284,11 +286,9 @@ color : #FF6F7D;
 	letter-spacing: 1px;
 }
 
-
 #contact input, #contact textarea {
 	width: 58%;
 }
-
 
 #contact .button{
 	float: left;
@@ -297,30 +297,48 @@ color : #FF6F7D;
 	font-size: 100%;
 }
 
+/*-----------------------------------------------------------*/
 /* Style spécifique à Catalogue */
 
-.article h2 {
-color:#FF6F7D;
-text-decoration:none;
-}
-.article img{
-margin-left: 1%;
-float:left;
-width: 150px;
-height:auto;
-
+ .articleCatalogue {
+ 	margin: 2%;
+ 	margin-right: 10%;
+ 	border-top: dotted;
+ 	border-color: #DC2C3E;
+ 	display: inline-block;
 }
 
-.article {
-margin-bottom : 2%;
+.articleCatalogue img{
+	float: left;
+	margin: 3%;
+}
+
+.articleCatalogue p{
+	text-align: justify;
+}
+
+.articleCatalogue h2 {
+	margin-top: 4%;
+	color:#FF6F7D;
+	text-decoration:none;
 }
 
 .tarif{
-	float:right;
-	margin-left: 3%;
+	float:left;
+	margin-top: 2%;
+	margin-left: 28.5%;
 	color:#FF6F7D;	
 }
-.button{
+.buttonCatalogue{
 	float:right;
-}
+	margin: 1%;
+	margin-bottom: 1%;
+	margin-top: 2%;
+	background-color: #FFBEAC;
+	padding:0.5%;
+	border: #DDEEFF 1px solid;
+	font-size: 85%;
+	color: white;
 
+
+}
