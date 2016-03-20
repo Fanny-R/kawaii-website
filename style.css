@@ -202,18 +202,7 @@ h2 a {
 
 /* Style spécifique à Index */
 
-#presentation {
-text-align:justify;
-margin : 2%;
-font-size : 120%;
-color : #BA3744;
-border: dotted;
-border-color: #DC2C3E;
-padding : 1%;
-}
-#presentation strong {
-color:#EB4354;
-}
+
 #promo a{
 	color: white;
 	text-decoration: none;
@@ -314,7 +303,7 @@ color:#EB4354;
  .articleCatalogue {
  	margin: 2%;
  	margin-right: 10%;
- 	border-top: dotted;
+ 	border-bottom: dotted;
  	border-color: #DC2C3E;
  	display: inline-block;
 }
