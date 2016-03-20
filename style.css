@@ -119,6 +119,19 @@ body li{
 display: inline-block;
 }
 
+#presentation {
+	text-align:justify;
+	margin : 2%;
+	font-size : 120%;
+	color : #BA3744;
+	border: dotted;
+	border-color: #DC2C3E;
+	padding : 1%;
+}
+#presentation strong {
+	color:#EB4354;
+}
+
 /*-----------------------------------------------------------*/
 /*Style spécifique à Article*/
 
