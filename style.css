@@ -190,13 +190,44 @@ h2 a {
 }
 
 #boutonPanier {
-	float: right;
+	float: left;
 	margin: 9%;
 	margin-top: 2%;
 }
 
+table {
+	margin: 5%;
+	width: 5px;
+	 border-width:1px; 
+	 border-style:solid; 
+	 border-color:black;
+	 width:80%;
+	 height: 340%;
+ }
+td { 
+	 border-width:1px;
+	 border-style:solid; 
+	 border-color:red;
+	 width:250%;
+	 text-align: center;
 
+ }
+ tr { 
+	 border-width:1px;
+	 border-style:solid; 
+	 border-color:blue;
+	 width:50%;
 
+ }
+td img {
+	margin: 3%;
+	width:50%;
+	height:50%;
+}
+
+ .somme{
+
+ }
 
 /*-----------------------------------------------------------*/
 
