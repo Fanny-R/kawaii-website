@@ -14,7 +14,7 @@
   <a href="propos.html" ><li>A propos</li></a>
   <li><a href="technique.html">Détails techniques</li></a>
   <li><a href="panier.html">Panier</li></a>
-  <li><label><a href="catalogue.html" >Rechercher </a><input></label></li>
+  <a href="catalogue.html" ><li><label>Rechercher <input></label></li></a>
   </ol>
 </header>
 
@@ -33,6 +33,6 @@
   Donec efficitur, magna id pellentesque aliquet, orci purus placerat magna, vel cursus...</p>
 	<class id="annuler"><a href="panier.html">Annuler</a></class>
 	</class>
-	<a href="pmerci.html" class="button" >Envoyer</a>
+	<a href="merci.html" class="button" >Commander</a>
   </body>
 </html>

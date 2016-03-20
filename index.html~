@@ -7,9 +7,9 @@
   </head>
   <body>
 <body>
+
   <header>
-  <a href="siteweb.html"><h1>Kawaii</h1></a>
-  
+  <a href="index.html"><h1>Kawaii</h1></a> 
   <ol>
   <a href="catalogue.html"><li>Nos articles</li></a>
   <a href="propos.html" ><li>A propos</li></a>
@@ -17,26 +17,33 @@
   <li><a href="panier.html">Panier</li></a>
   <li><label><a href="catalogue.html" >Rechercher </a><input></label></li>
   </ol>
-
 </header>
 
 <ul>
 
  <div id="promo">
  <li>
-  <div id="offre">
-  <a href="article.html"><h2>Offre spéciale</h2></a>
+ 
+  <a href="article.html">
+    <div id="offre">
+      <h2> Offre spéciale</h2>
     </div>
+  </a>
 	</li>
  <li>	
-	<div id="soldes">
-    <a href="catalogue.html"><h2>Soldes</h2></a>
-    </div>
-		</li>
+    <a href="catalogue.html">
+      <div id="soldes">
+        <h2> Soldes</h2> 
+      </div>
+    </a>
+  </li>
  <li>	
-	<div id="bestof">
-	<a href="catalogue.html"><h2>Best of</h2></a>
+	
+	<a href="catalogue.html">
+    <div id="bestof">
+    <h2> Best of</h2>
     </div>
+  </a>
 		</li>
 </div>
 </ul>
