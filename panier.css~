@@ -85,17 +85,15 @@ color:#FF6F7D;
 text-decoration:none;
 }
 
-button{
+.button{
 	background-color: #FFBEAC;
-	padding:5px;
+	padding:2px;
 	border: #DDEEFF 1px solid;
-	width: 20%;
+	width: 15%;
 }
 
-button:hover{
+.button:hover{
 	background-color: #F5B4A2;
 	cursor: pointer;
 }
-
-
  

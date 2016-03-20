@@ -21,11 +21,11 @@ color:#EB4354;
 text-decoration:none;
 }
 
-header a{
+a{
 text-decoration:none;
 color : #BA3744;
 }
-header a:hover{
+a:hover{
 color : #9F202D;
 }
 
@@ -60,18 +60,6 @@ input:hover, input:focus
 
 /**/
 
-td
-
-{
-
-    border: 1px solid black;
-    padding-top: 20%;
-    padding: 20%;
-
-	
-}
-
-
 
 #contenu img{
 float:right;
@@ -90,9 +78,6 @@ margin-left : 10px;
 	width: 250px;
 	float: left;
 }
-
-
-
 
 
 #contact legend{
@@ -122,15 +107,16 @@ color : #FF6F7D;
 	background-color: #FDE9E0;
 }
 
-#contact button{
+#contact .button{
 	background-color: #FFBEAC;
 	border: #DDEEFF 1px solid;
 	float: left;
+	padding:0.5%;
 	margin-top: 2%;
 	margin-left: 
 }
 
-#contact button:hover{
+#contact .button:hover{
 	background-color: #F5B4A2;
 	cursor: pointer;
 }

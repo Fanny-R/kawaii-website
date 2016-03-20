@@ -13,7 +13,7 @@ margin-bottom : 20px;
 box-shadow: 0 4px 2px -2px gray;
 }
 
-a h1{
+h1{
 margin-top: 0.3em;
 font-size:350%;
 padding-left:50px;
@@ -21,11 +21,11 @@ color:#EB4354;
 text-decoration:none;
 }
 
-header li a{
+a{
 text-decoration:none;
 color : #BA3744;
 }
-header li a:hover{
+a:hover{
 color : #9F202D;
 }
 
@@ -60,6 +60,19 @@ input:hover, input:focus
 
 /**/
 
+td
+
+{
+
+    border: 1px solid black;
+    padding-top: 20%;
+    padding: 20%;
+
+	
+}
+
+
+
 #contenu img{
 float:right;
 margin-left: 20px;
@@ -71,7 +84,15 @@ text-align:justify;
 margin-left : 10px;
 }
 
-#formulaire legend{
+#contact label {
+	display: block;
+	padding-right:-10%; 
+	width: 250px;
+	float: left;
+}
+
+
+#contact legend{
 font-size : 130%;
 margin-left : 10px;
 margin-bottom : 10px;
@@ -87,25 +108,27 @@ color : #FF6F7D;
 	text-align: right;
 	letter-spacing: 1px;
 }
-#formulaire input, #formulaire select, #formulaire textarea{
+
+#contact textarea{
 	margin-left: 1%;
 	width: 58%;
-	border: #CCC 1px solid;
 }
 
-#formulaire input:hover, #formulaire select:hover, #formulaire textarea:hover, #formulaire input:focus, #formulaire select:focus, #formulaire textarea :focus {
+#contact input:hover, #contact select:hover, #contact textarea:hover, #contact input:focus, #contact select:focus, #contact textarea :focus {
 	border: #999 1px solid;
 	background-color: #FDE9E0;
 }
 
-#formulaire button{
+#contact .button{
 	background-color: #FFBEAC;
 	border: #DDEEFF 1px solid;
-	width: 27%;
 	float: left;
+	padding:0.5%;
+	margin-top: 2%;
+	margin-left: 2%;
 }
 
-#formulaire button:hover{
+#contact .button:hover{
 	background-color: #F5B4A2;
 	cursor: pointer;
 }
