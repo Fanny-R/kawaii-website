@@ -51,7 +51,7 @@ header input {
 	width: 58%;
 	border: #CCC 1px solid;
 }
-header input:hover, input:focus
+header input:hover, header input:focus
 {
 	border: #999 1px solid;
 	background-color: #FDE9E0;
@@ -79,6 +79,18 @@ body a{
 body a:hover{
 color : #9F202D;
 }
+
+body input, body textarea  {
+	margin-left: 1%;
+	border: #CCC 1px solid;
+}
+
+body input:hover, body textarea:hover,  body input:focus, body textarea:focus
+{
+	border: #999 1px solid;
+	background-color: #FDE9E0;
+}
+
 
 .button{
 	background-color: #FFBEAC;
@@ -210,16 +222,7 @@ color : #FF6F7D;
 
 
 #contact input, #contact textarea {
-	margin-left: 1%;
 	width: 58%;
-	border: #CCC 1px solid;
-
-}
-
-
-#contact input:hover, #contact textarea:hover, #contact input:focus, #contact textarea:focus {
-	border: #999 1px solid;
-	background-color: #FDE9E0;
 }
 
 
