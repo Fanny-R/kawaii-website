@@ -11,14 +11,14 @@ background-image: url('image/test.gif');
 background-repeat: no-repeat;
 background-position: 95% 0%;
 background-size: 150px;
-margin-bottom : 20px;
 box-shadow: 0 4px 2px -2px gray;
 }
 
 header h1{
 margin-top: 0.3em;
 font-size:350%;
-padding-left:50px;
+padding-left:5%;
+padding-bottom: 1%;
 color:#EB4354;
 text-decoration:none;
 }
@@ -60,6 +60,10 @@ header input:hover, input:focus
 header li{
 display: inline-block;
 }
+
+header label {
+	display: inline;
+}
 /*----------------------------------*/
 
 
@@ -95,8 +99,41 @@ font-family: Comic Sans, Verdana, Geneva, Arial;
 body li{
 display: inline-block;
 }
+/*-----------------------------------------------------------*/
+/*Style spécifique à Panier*/
 
 
+
+ #achat {
+margin: 2%;
+}
+
+#achat img{
+	float: left;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 5%;
+	border: dotted;
+}
+
+h2 a {
+color:#FF6F7D;
+text-decoration:underline;
+}
+
+#annuler a{
+padding:5px;
+color:white;
+text-decoration:none;
+background-color:#DC2C3E;
+box-shadow: 3px 3px 1px 0px #c0c0c0;
+float:right;
+}
+
+
+
+
+/*-----------------------------------------------------------*/
 /* Style spécifique à Index*/
 #promo a{
 	color: white;
@@ -139,6 +176,7 @@ height:500px;
 background-size: cover;
 }
 
+/*-----------------------------------------------------------*/
 /* Style spécifique à Article*/
 
 #image_article{
