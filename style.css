@@ -159,7 +159,6 @@ display: inline-block;
 #article {
  	margin: 2%;
  	margin-right: 10%;
- 	border-top: dotted;
  	border-color: #DC2C3E;
  	display: inline-block;
 }
@@ -180,6 +179,20 @@ h2 a {
 	color:#FF6F7D;
 	text-decoration:underline;
 	padding-left: 5%;
+}
+
+#tarifArticle{
+	color:#FF6F7D;
+	margin-left: 32%;
+}
+
+#selecteurChien  {
+	margin-left: 40%
+}
+
+#lienPanier {
+	margin: 1%;
+	margin-left: 75%;
 }
 
 
@@ -336,9 +349,9 @@ td img {
 
 #contact label {
 	display: block;
-	padding-right:-10%; 
 	width: 250px;
 	float: left;
+	margin-left: 1%;
 }
 
 
