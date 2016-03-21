@@ -15,11 +15,12 @@
   <a href="panier.html"><li>Panier</li></a>
   <li><label><a href="catalogue.html">Rechercher</a><input type="text" id="recherche"/></label></li>
   </ol>
+  <hr />
 </header>
 
+<div id="article">
 
-
-<h2 id="titreArticle"> Jeune Bouvier Australien </h2>
+<h2> Jeune Bouvier Australien </h2>
   	
 
       <p>
@@ -28,14 +29,17 @@
         Phasellus vel ipsum in diam fringilla luctus. Etiam et nisl velit. Donec efficitur, magna id pellentesque aliquet, orci purus placerat magna, vel cursus diam nulla ut est. Nam volutpat venenatis enim seddignissim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed viverra nibh mi, feugiat lobortis lorem pellentesque eu. Cras venenatis ex mi, a lacinia est tempus non. Quisque a interdum justo. <br/><br/>
         Phasellus vel ipsum in diam fringilla luctus. Etiam et nisl velit. Donec efficitur, magna id pellentesque aliquet, orci purus placerat magna, vel cursus diam nulla ut est. Nam volutpat venenatis enim seddignissim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed viverra nibh mi, feugiat lobortis lorem pellentesque eu. Cras venenatis ex mi, a lacinia est tempus non. Quisque a interdum justo. </p>
 
-        <p id ="tarif">239€</p>
+        <p id ="tarifArticle">239€</p>
+      </div>
+
+
 <div id="selecteurChien">
 
 <form action="panier.html" method="post">
 Sexe:
     <label><input name="Sexe" type="radio" value="ch"> Male</label>
     <label><input name="Sexe" type="radio" value="ol"> Femelle</label>
-	</body>
+	
 
 	<label>Race :<select>
 	<option>Golden Retriever</option>
@@ -46,7 +50,18 @@ Sexe:
 	</label>
 	<label>Quantité :<input type="number" name="quantity" min="1" max="9" step="1"></label>
 	</form>
-	<a href="panier.html" class="button" >Commander</a>
-
 </div>
+
+<div id="lienPanier" >
+<a href="panier.html" class="button" >Commander</a>
+</div>
+  
+
+<footer>
+<p>Kawaii - Agence d'adoption pour animaux dépassant le niveau national de mignonerie ! <br><span id="text-petit">
+Notre société décline toute responsabilité en cas de cris de ravissement et couinements intempestifs - Made with love ♥  </span></p>
+
+</footer>
+
+</body>
 </html>

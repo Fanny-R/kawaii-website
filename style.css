@@ -4,6 +4,10 @@
 
 /*---------------- HEADER STYLE ------------------*/
 
+html, body {
+	height: 100%;
+	margin: 0%;
+}
 
 header{
 padding-bottom : 0.1em;
@@ -64,6 +68,23 @@ display: inline-block;
 header label {
 	display: inline;
 }
+
+
+
+footer {
+	height: 13%;
+	background-color: #EB4354;
+}
+footer p {
+text-align: center;
+padding-top: 2%;
+color: white;
+}
+
+#text-petit{
+	font-size: 60%;
+}
+
 /*----------------------------------*/
 
 
@@ -126,7 +147,6 @@ display: inline-block;
 #article {
  	margin: 2%;
  	margin-right: 10%;
- 	border-top: dotted;
  	border-color: #DC2C3E;
  	display: inline-block;
 }
@@ -147,6 +167,20 @@ h2 a {
 	color:#FF6F7D;
 	text-decoration:underline;
 	padding-left: 5%;
+}
+
+#tarifArticle{
+	color:#FF6F7D;
+	margin-left: 32%;
+}
+
+#selecteurChien  {
+	margin-left: 40%
+}
+
+#lienPanier {
+	margin: 1%;
+	margin-left: 75%;
 }
 
 
@@ -251,6 +285,7 @@ td img {
 	color:#EB4354;
 }
 
+
 #promo a{
 	color: white;
 	text-decoration: none;
@@ -270,7 +305,7 @@ td img {
 	background-image: url('image/chiot.jpg');
 	position: relative; 
 	background-repeat: no-repeat;
-	margin:10%;
+	margin:5%;
 	width:500px;
 	height:500px;
 	background-size: cover;
@@ -279,7 +314,7 @@ td img {
 #soldes{
 	background-image: url('image/canard.jpg');
 	position: relative; 
-	margin:10%;
+	margin:5%;
 	width:500px;
 	height:500px;
 	background-size: cover;
@@ -288,7 +323,7 @@ td img {
 #bestof{
 	background-image: url('image/panda.jpg');
 	position: relative;
-	margin:10%;
+	margin:5%;
 	width:500px;
 	height:500px;
 	background-size: cover;
@@ -299,23 +334,30 @@ td img {
 /*-----------------------------------------------------------*/
 /* Style spécifique à Propos */
 
-#contenu img{
-	float:right;
-	margin-left: 1%;
-	margin-right : 1%;
-}
 
 #contenu{
 	text-align:justify;
 	margin-left : 1%;
 }
 
+#contenu img{
+	float:right;
+	margin-left: 1%;
+	margin-right : 1%;
+}
+
+#contact {
+	margin-bottom: 10%;
+
+}
+
 #contact label {
 	display: block;
-	padding-right:-10%; 
 	width: 250px;
 	float: left;
+	margin-left: 1%;
 }
+
 
 #contact legend{
 	font-size : 130%;
