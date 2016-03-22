@@ -19,86 +19,66 @@
 </header>
 	
 <table>
-     <caption>Mon Panier</caption>
+     <!--<caption>Mon Panier</caption>-->
    
    <thead> <!-- En-tête du tableau -->
    <tr>
        <th colspan="3">Articles</th>
-       <th>Prix unitaire</th>
+       <th nowrap>Prix unitaire</th>
        <th>Quantité</th>
-       <th>Prix Total</th>
+       <th nowrap>Prix Total</th>
    </tr>
  </thead>
    <tbody> <!-- Corps du tableau -->
    <tr >
         <td><img src="image/canard.jpg">
-       <td nowrap>Panda Roux</td>
-       <td nowrap>Sans critère particulier</td>
-       <td >89€</td>
-       <td class = "qte"><label><input type="number" name="quantity" min="1" max="9" step="1" value="3"></label> 
+       <td nowrap class="item-details">Canard de WC</td>
+       <td nowrap class="item-details">Jaune<br/> Vendu par 100</td>
+       <td  class="item-details">12€</td>
+       <td class = "qte"  class="item-details"><label><input type="number" name="quantity" min="1" max="9" step="1" value="9"></label> 
 	<a class = "annuler" href="panier.html" >Annuler</a></class></td>
-       <td>267€</td>
+       <td class="item-details">108€</td>
    </tr>
 
    <tr >
-        <td><img src="image/canard.jpg">
-       <td nowrap>Panda Roux</td>
-       <td nowrap>Sans critère particulier</td>
-       <td >89€</td>
-       <td class = "qte"><label><input type="number" name="quantity" min="1" max="9" step="1" value="3"></label> 
+        <td><img src="image/loutre.jpg">
+       <td nowrap class="item-details">Loutre de Bain</td>
+       <td nowrap class="item-details">Caractérielle<br/> Noie ses enfants</td>
+       <td  class="item-details">65€</td>
+       <td class = "qte" class="item-details"><label><input type="number" name="quantity" min="1" max="9" step="1" value="1"></label> 
 	<a class = "annuler"  href="panier.html" >Annuler</a></class></td>
-       <td>267€</td>
+       <td class="item-details">65€</td>
    </tr>
 
    <tr >
-        <td><img src="image/canard.jpg">
-       <td nowrap>Panda Roux</td>
-       <td nowrap>Sans critère particulier</td>
-       <td >89€</td>
-       <td class = "qte"><label><input type="number" name="quantity" min="1" max="9" step="1" value="3"></label> 
+        <td><img src="image/panda.jpg">
+       <td nowrap class="item-details">Panda Roux</td>
+       <td nowrap class="item-details">Roux<br/>Version Pocket</td>
+       <td  class="item-details">189€</td>
+       <td class = "qte" class="item-details"><label><input type="number" name="quantity" min="1" max="9" step="1" value="2"></label> 
 	<a class = "annuler" href="panier.html" >Annuler</a></class></td>
-       <td>267€</td>
+       <td class="item-details">367€</td>
    </tr>
 
 </tbody>
       <tfoot> <!-- Pied de tableau -->
-      <td id="somme" colspan="5">Montant Total</td>
+      <td id="somme" colspan="5" class="item-details">Montant Total - TVA comprise</td>
 
-       <td>1267€</td>
+       <td class="item-details">1267€</td>
       </tfoot>
 
 </table>
 
-  <!--
-  <class id="achat">
-  <IMG SRC="image/panda.jpg" WIDTH=280 HEIGHT=200 alt="Panda roux" />
-  
-  <h2><a href="article.html">Adorable panda roux</a></h2>
-  <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ac vestibulum lorem. Sed consectetur faucibus lacus, vel lobortis est rutrum in. Aliquam eget turpis sit amet lacus vehicula pharetra. Phasellus ultrices vehicula luctus. Vivamus fermentum tellus vitae semper vestibulum. Maecenas eros magna, tincidunt tempor sodales et, euismod sit amet ex. Phasellus consectetur leo vitae arcu ultricies, at pellentesque neque rhoncus. Cras augue mi, semper eget mattis nec, lacinia id risus. Cras interdum ac mi a gravida. Cras in ante arcu. Curabitur commodo metus id metus imperdiet accumsan. Nullam tincidunt massa volutpat lacus aliquam, malesuada auctor nisi aliquam. Cras pulvinar porttitor quam, sit amet porttitor risus eleifend quis. </p>
-  
-  <class id="annuler"><a href="panier.html">Annuler</a></class>
-  </class>  
 
-  <class id="achat">
-  <IMG SRC="image/canard.jpg" WIDTH=280 HEIGHT=200 alt="Panda roux" />
+ <a href="merci.html" class="buttonPanier">Confirmer la commande</a>
   
-  <h2><a href="article.html">Canard adorant les WC</a></h2>
-  <p> Quisque ut congue orci. Nullam scelerisque arcu vitae mi ultrices vulputate. Vivamus sit amet volutpat elit. Etiam venenatis eros non est ultrices, eget sagittis nibh ultricies. Maecenas ac nisi ac ante placerat auctor a in lectus. Fusce faucibus justo sem, ac vulputate purus commodo nec. Suspendisse pellentesque est a lectus pulvinar maximus. Sed aliquam orci justo, nec sollicitudin neque commodo vel. Aenean blandit eros ut justo ultricies, vel efficitur odio semper. Suspendisse faucibus eget libero quis tincidunt. Nunc auctor at dui nec vulputate. Suspendisse potenti. Cras ut quam in turpis placerat cursus. Donec sit amet urna sagittis, ornare turpis ut, pulvinar arcu. Morbi eleifend quis lorem in sodales. Nullam feugiat turpis ac nisl varius sagittis. </p>
   
-  <class id="annuler"><a href="panier.html">Annuler</a></class>
-  </class>  
-
-  <class id="achat">
-  <IMG SRC="image/loutre.jpg" WIDTH=280 HEIGHT=200 alt="Panda roux" />
   
-  <h2><a href="article.html">Loutre de salle de bain</a></h2>
-  <p>Morbi dapibus elementum ligula ac mattis. Suspendisse potenti. Cras a eros accumsan, gravida nibh et, maximus leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla facilisi. Suspendisse ut nulla a libero lacinia interdum sit amet et nulla. Donec pretium dictum est, ut tristique nunc tempor eu. Donec vitae tristique tellus. Sed arcu nisi, tempus eu fermentum non, posuere et leo. Aenean porta, mi vel rhoncus maximus, velit est consequat justo, varius tincidunt sem purus eu ipsum. Donec suscipit sapien nulla, quis ultrices quam sagittis ac. Quisque cursus iaculis ante, id commodo augue. </p>
-
-
-  <class id="annuler"><a href="panier.html">Annuler</a></class>
-  </class>-->
-
- <a href="merci.html" class="button">Confirmer la commande</a>
   
+  <footer>
+<p>Kawaii - Agence d'adoption pour animaux dépassant le niveau national de mignonerie ! <br><span id="text-petit">
+Notre société décline toute responsabilité en cas de cris de ravissement et couinements intempestifs - Made with love ♥  </span></p>
+
+</footer>
   </body>
 </html>
