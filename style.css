@@ -134,7 +134,7 @@ body input:hover, body textarea:hover,  body input:focus, body textarea:focus
 
 
 .button{
-	background-color: #FFBEAC;
+	background-color: #DC2C3E;
 	padding:0.5%;
 	border: #DDEEFF 1px solid;
 	font-size: 85%;
@@ -225,8 +225,9 @@ table {
 
 th, td {
     text-align: center;
-	border-bottom: 1px solid #BA3744;
-		padding:20px;
+	border-bottom: 1px solid #EB4354;
+	padding:20px;
+	white-space: nowrap;
 	}
 
 
@@ -238,12 +239,16 @@ th {
 
 .buttonPanier{
 
-background-color:#BA3744;
+background-color:#DC2C3E;
 color:white;
 padding:0.8%;
 margin-left:54%;
 }
 
+.buttonPanier:hover{
+	background-color: #F5B4A2;
+	cursor: pointer;
+}
 
 /*-----------------------------------------------------------*/
 
