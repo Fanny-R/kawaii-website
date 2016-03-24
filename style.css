@@ -267,19 +267,20 @@ margin-left:54%;
 font-family:Verdana;
 
 }
+article{
+	margin-left:10%;
+	width:60%;
+	text-align:justify;
+}
 
 .contenuTech p{
 
-text-align:justify;
-width:60%;
-margin-left:10%;
 margin-bottom:1%;
 }
 
 .contenuTech li{
 list-style-type: circle;
-margin-left:10%;
-width:60%;
+
 }
 
 
