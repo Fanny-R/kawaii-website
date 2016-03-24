@@ -4,9 +4,14 @@
 
 /*---------------- HEADER STYLE ------------------*/
 *{
+	font-family: Helvetica, Arial, sans-serif;
 	margin:0%;	
-	}
 
+	}
+@font-face {
+    font-family: "Titre";
+    src: url('font/LeckerliOne-Regular.otf');
+}
 header{
 padding-bottom : 0.1em;
 background-image: url('image/test.gif');
@@ -18,9 +23,10 @@ margin-bottom: 2%;
 }
 
 header h1{
-margin-top: 0.3em;
+font-family: "Titre", Helvetica, Arial, sans-serif;
+margin-top: 0.5em;
 font-size:350%;
-padding-left:5%;
+padding-left:2%;
 padding-bottom: 1%;
 color:#EB4354;
 text-decoration:none;
