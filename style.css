@@ -44,6 +44,7 @@ color : #9F202D;
 
 
 header li {
+color : #BA3744;
 background-color :  #FFE4C4;
 box-shadow: 3px 3px 1px 0px #c0c0c0;
 margin-left : 5px;
@@ -57,10 +58,13 @@ margin-bottom:20px;
 header li:hover {
 background-color : #FFBEAC;
 }
+header li form {
+display: inline-block;
+}
 
 header input {
 	margin-left: 1%;
-	width: 58%;
+	width: 90%;
 	border: #CCC 1px solid;
 }
 header input:hover, header input:focus
@@ -73,10 +77,8 @@ header li{
 display: inline-block;
 }
 
-header label {
-	display: inline;
-}
-
+/*----------------------------------*/
+/*---------------- FOOTER STYLE ------------------*/
 footer {
 	background-color: #EB4354;
 	width:100%;
@@ -97,8 +99,6 @@ color: white;
 
 
 /*----------------------------------*/
-
-
 
 /*------------  BODY STYLE  ----------------------*/
 
@@ -155,7 +155,7 @@ body input:hover, body textarea:hover,  body input:focus, body textarea:focus
 
 body{
 background-color : #FFF5E9;
-font-family: Comic Sans, Verdana, Geneva, Arial;
+
 }
 
 #promo li{
